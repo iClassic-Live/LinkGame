@@ -1,0 +1,54 @@
+{
+	"groups": [
+		{
+			"keys": "button_down_png,button_up_png,bg_jpg,egret_icon_png,description_json",
+			"name": "preload"
+		},
+		{
+			"keys": "common_panel_title1_png,common_panel_bg1_png,common_btn_5_png",
+			"name": "ui"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/ui/common_panel_bg1.png",
+			"type": "image",
+			"name": "common_panel_bg1_png"
+		},
+		{
+			"url": "assets/ui/common_btn_5.png",
+			"type": "image",
+			"name": "common_btn_5_png"
+		},
+		{
+			"url": "assets/ui/common_panel_title1.png",
+			"type": "image",
+			"name": "common_panel_title1_png"
+		}
+	]
+}

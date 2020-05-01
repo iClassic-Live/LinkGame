@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BackgroundSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="100%" height="100%" x="0" y="0" source="bg_jpg"/>
+	<e:Rect width="100%" height="100%" y="0" fillAlpha="0.7"/>
+	<e:Label text="连连看" size="60" fontFamily="Microsoft YaHei" textAlign="center" horizontalCenter="0" top="79" textColor="0x975731"/>
+	<e:Button id="btn_reStart" label="重新开始" x="425" y="175" enabled="false"/>
+	<e:Button id="btn_revert" label="步骤回退" x="425" y="250" enabled="false"/>
+	<e:Group id="group_lines" top="340" horizontalCenter="0" width="540"/>
+	<e:Group id="group_link" width="540" horizontalCenter="0" top="340" height="540"/>
+	<e:Group id="group_blocks" top="340" horizontalCenter="0" width="540"/>
+	<e:Component id="board" horizontalCenter="0" verticalCenter="0" skinName="InterfaceSkin"/>
+</e:Skin>

@@ -1,2 +1,3 @@
 # LinkGame
-An Egret Game Just For Practice
+
+Discription: a simple game designed on egret just for practice
