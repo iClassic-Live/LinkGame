@@ -97,9 +97,9 @@ module Algorithm {
 								//若下级节点和前溯倒数第二个节点的横纵坐标都不相同，则两节点之间存在一个转角
 								if (_px !== _nx && _py !== _ny)
 								{
-									if (_cornors + 1 < _minCornors)
+									if (_cornors++ < _minCornors)
 									{
-										_item[0] = _cornors + 1;
+										_item[0] = _cornors;
 									}
 									//若当前转角数不小于所有可达通道的已知最小转角数，则丢弃这个下级节点
 									else
