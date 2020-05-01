@@ -97,7 +97,7 @@ module Algorithm {
 								//若下级节点和前溯倒数第二个节点的横纵坐标都不相同，则两节点之间存在一个转角
 								if (_px !== _nx && _py !== _ny)
 								{
-									if (_cornors++ < _minCornors)
+									if (_cornors < _minCornors)
 									{
 										_item[0] = _cornors;
 									}
@@ -113,9 +113,9 @@ module Algorithm {
 							if (_tX === _nx && _tY === _ny)
 							{
 								//当前通道的转角数小于所有可达通道的已知最小转角数，当前通道为最佳通道
-								if (_minCornors > _cornors)
+								if (_minCornors > _item[0])
 								{
-									_minCornors = _cornors;
+									_minCornors = _item[0];
 									_bestPath = _item[1];
 									_sign1 = false;
 								}
