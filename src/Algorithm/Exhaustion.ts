@@ -43,7 +43,7 @@ module Algorithm {
 			let _pathSize: number;  //通道路径长度
 			let _index: number;  //通道序号
 			let _sign2: boolean;  //下级节点是否可向前回溯到倒数第二个节点
-			let _pathPosMap: egret.MapLike<true> = {};  //当前通道节点表
+			let _pathPosMap: egret.MapLike<true>;  //当前通道节点表
 
 			//每完成一个While循环，所有有效通道增加一个节点
 			//起点=>终点 终点=>起点 双向寻路，减少在实际上无法找到有效路径时过度寻路的寻路消耗
