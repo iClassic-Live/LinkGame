@@ -18,7 +18,7 @@ module Algorithm {
 		{
 			const _posMap = this.gPosMap;
 
-			const _twoWayList: [IOneWayInfo, IOneWayInfo] = [[tTo,[[0, [tFrom]]]],[tFrom,[[0, [tTo]]]]]
+			const _twoWayList: [IOneWayInfo, IOneWayInfo] = [[tTo,[[0, [tFrom]]]],[tFrom,[[0, [tTo]]]]];
 
 			let _sign1: boolean = true;  //是否有通道已到达目标节点
 			let _minCornors: number = Infinity;  //所有可达通道的已知最小转角数
